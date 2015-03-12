@@ -1,0 +1,69 @@
+.row
+{
+    width: 903px;
+    margin: 0;
+    position: relative;
+}
+#panel1
+{
+    background: transparent;
+    height: 305px;
+    width: 450px;
+}
+#panel2
+{
+    background: transparent;
+    height: 305px;
+    width: 450px;
+}
+#panel3
+{
+    background: transparent;
+    height: 305px;
+    width: 903px;
+}
+#panel5
+{
+    background: transparent;
+    height: 556px;
+    width: 572;
+}
+#row3 div{
+    float: left;
+}
+.bump
+{
+    display: inline-block;
+}
+.bump5
+{
+    margin-left: 5;
+}
+.bump10
+{
+    margin-left: 10;
+}
+.bubbles
+{
+    position: absolute;
+    font-family: Ariel;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+#bubble1
+{
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    font-family: Ariel;
+    font-size: 18px;
+}
+#bubble2
+{
+    position: absolute;
+    top: 12px;
+    left: 155px;
+    width: 310px;
+    font-family: Ariel;
+    font-size: 13px;
+}

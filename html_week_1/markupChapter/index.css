@@ -1,0 +1,41 @@
+
+#head {
+    width: 90%
+    height: 80px;
+    background-color: chartreuse;
+    border-bottom: 12px double #000;
+    font-family: sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 40px;
+}
+.stuff
+{
+    width: 800px;
+    background-color: lightgray;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+body {
+
+
+
+
+
+}
+
+p {
+    text-indent: 3cm;
+    font-size: 30px;
+    font: fantasy;
+
+}
+div
+{
+    margin: 60px 100px
+    width: 80%;
+
+}
+
+
