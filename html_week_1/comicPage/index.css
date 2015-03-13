@@ -1,6 +1,6 @@
 .row
 {
-    width: 903px;
+    width: 908px;
     margin: 0;
     position: relative;
 }
@@ -37,11 +37,15 @@
 }
 .bump5
 {
-    margin-left: 5;
+    margin-left: 5px;
 }
 .bump10
 {
-    margin-left: 10;
+    margin-left: 10px;
+}
+.bump20
+{
+    margin-left: 20px;
 }
 .bubbles
 {
@@ -57,13 +61,114 @@
     left: 18px;
     font-family: Ariel;
     font-size: 18px;
+    font-style: italic;
+
 }
 #bubble2
 {
     position: absolute;
     top: 12px;
     left: 155px;
-    width: 310px;
+    width: 300px;
     font-family: Ariel;
-    font-size: 13px;
+    font-size: 14px;
+}
+#bubble3
+{
+    position: absolute;
+    top:85px;
+    left: 270px;
+    width: 200px;
+    font-family: Ariel;
+    font-size: 15px;
+
+}
+#bubble4
+ {
+     position: absolute;
+     top: 15px;
+     left: 484px;
+     width: 180px;
+     font-family: Ariel;
+     font-size: 16px;
+ }
+#bubble5
+{
+    position: absolute;
+    top: 17px;
+    left: 680px;
+    width: 220px;
+    font-family: Ariel;
+    font-size: 14px;
+}
+#bubble6
+{
+    position: absolute;
+    top: 140px;
+    left: 720px;
+    width: 180px;
+    font-family: Ariel;
+    font-size: 14px;
+}
+#bubble7
+{
+position: absolute;
+top: 272px;
+left: 825px;
+width:90px;
+font-family: Ariel;
+font-size: 15px;
+}
+#bubble8 {
+    position: absolute;
+    top: 6px;
+    left: 24px;
+    width: 100px;
+    font-family: Ariel;
+    font-size: 19px
+}
+#bubble9
+{
+    position: absolute;
+    top: 8px;
+    left: 244px;
+    width:180px;
+    font-family: Ariel;
+    font-size: 15px;
+}
+#bubble10{
+    position: absolute;
+    top: 13px;
+    left: 690px;
+    width:200px;
+    font-family: Ariel;
+    font-size: 15px;
+
+}
+#bubble11
+{
+    position: absolute;
+    top:247px;
+    left: 223px;
+    width: 270px;
+    font-family: Ariel;
+    font-size: 14px;
+}
+#bubble12
+{
+    position: absolute;
+    top:0px;
+    left: 11px;
+    width: 180px;
+    font-family: Ariel;
+    font-size: 14px;
+}
+#bubble13
+{
+    position: absolute;
+    top:470px;
+    left: 11px;
+    width: 180px;
+    font-family: Ariel;
+    font-size: 14px;
 }
