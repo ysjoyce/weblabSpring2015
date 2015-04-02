@@ -38,19 +38,29 @@ $(function() {
     function setCloser(info) {
 
         info.closer.on('click',function() {
+            closeTag();
+        })
 
-            info.userName.val('');
-
-            info.block.removeClass('open').css('display','none');
-            info.span.text('').css('font-size','200px');
-            info.closer.off('click');
-            setTimeout(function() {
-                $('form').fadeIn();
-                info.userName.focus();
-            },300);
-
+        $('body').on('keydown',function(e) {
+            if(e.which === 27){
+                closeTag()
+            }
         })
     }
+
+    function closeTag() {
+        info.userName.val('');
+
+        info.block.removeClass('open').css('display','none');
+        info.span.text('').css('font-size','200px');
+        info.closer.off('click');
+        setTimeout(function() {
+            $('form').fadeIn();
+            info.userName.focus();
+        },300);
+
+    }
+
 });
 
 

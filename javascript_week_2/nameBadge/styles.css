@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    background-image: url(wood-grain-texture.jpg);
+    background-size: cover;
 }
 
 
@@ -11,7 +13,11 @@ body {
     margin: 100px auto 0;
     padding: 0 20px 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,1);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    position: relative;
+    transform: rotate(-15deg) translateX(25px);
+    transition: all .4s ease;
+    top: 100px;
 }
 
 h1 {
