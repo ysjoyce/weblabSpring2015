@@ -8,6 +8,8 @@ $(function() {
         closer: ''
     };
 
+    $('#someText').focus();
+
 	$('#testForm').submit(function(e) {
         e.preventDefault();
         e.stopPropagation();
@@ -49,6 +51,6 @@ $(function() {
 
         })
     }
-})
+});
 
 
