@@ -1,0 +1,146 @@
+$brown: #987644;
+
+body {
+  background-color: #fff;
+}
+
+.park {
+  width: 800px;
+  height: 800px;
+  background-color: forestgreen;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.field {
+  overflow: hidden;
+  width: 750px;
+  height: 750px;
+  background-color: transparent;
+  position: absolute;
+  left: 50px;
+}
+
+
+.infield {
+  background-color: $brown;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+
+  .infieldGrass {
+    background: green;
+    width: 340px;
+    height: 340px;
+    left: 15px;
+    position: relative;
+    bottom: 5px;
+  }
+}
+
+.bag {
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.firstsecond {
+  width: 800px;
+  height: 800px;
+  background: $brown;
+  position: absolute;
+  bottom: -270px;
+  border-radius: 1000px;
+  z-index: 1;
+  left: -270px;
+}
+
+.homePlate {
+  background: $brown;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 3;
+  border-radius: 50px;
+
+  .bag {
+    top: 24px;
+    left: 30px;
+  }
+}
+
+
+
+
+
+.firstBase,
+.secondBase,
+.thirdBase {
+  background-color: $brown;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 3;
+  right: -30px;
+  bottom: -10px;
+
+  .bag {
+    left: 25px;
+    top: 17px;
+  }
+}
+
+.secondBase {
+  bottom: 325px;
+  right: -30px;
+
+  .bag {
+    top: 10px;
+    left: 26px;
+  }
+}
+
+.thirdBase {
+  left: -10px;
+  bottom: 330px;
+
+  .bag {
+    display: none;
+  }
+}
+
+.thirdBaseLine,
+.firstBaseLine {
+  width: 2px;
+  height: 1000px;
+  position: absolute;
+  z-index: 4;
+  background: #fff;
+}
+
+.thirdBaseLine {
+  bottom: 17px;
+  left: 6px;
+}
+
+
+.firstBaseLine {
+  width: 1000px;
+  height: 2px;
+  bottom: 7px;
+  left: 5px;
+}
+
+
+
+
+
+
+
