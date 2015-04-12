@@ -1,17 +1,16 @@
-/* line 3, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 body {
   background-color: #fff; }
 
-/* line 7, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .park {
   width: 800px;
   height: 800px;
-  background-color: forestgreen;
+  background: repeating-linear-gradient(45deg, #1B562B, #127B34 55px, #146E30 55px, #176711 55px);
   margin: 0 auto;
   border-radius: 10px;
-  position: relative; }
+  position: relative;
+  transform: perspective(1000px) rotateX(70deg) rotateY(0deg) rotateZ(-45deg) translateZ(190px);
+  box-shadow: 0 3px 5px black; }
 
-/* line 16, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .field {
   overflow: hidden;
   width: 750px;
@@ -20,7 +19,6 @@ body {
   position: absolute;
   left: 50px; }
 
-/* line 26, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .infield {
   background-color: #987644;
   width: 350px;
@@ -28,7 +26,6 @@ body {
   position: absolute;
   bottom: 0;
   z-index: 2; }
-  /* line 34, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
   .infield .infieldGrass {
     background: green;
     width: 340px;
@@ -37,14 +34,12 @@ body {
     position: relative;
     bottom: 5px; }
 
-/* line 44, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .bag {
   width: 14px;
   height: 14px;
   background-color: #fff;
   position: absolute; }
 
-/* line 51, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .firstsecond {
   width: 800px;
   height: 800px;
@@ -55,7 +50,6 @@ body {
   z-index: 1;
   left: -270px; }
 
-/* line 62, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .homePlate {
   background: #987644;
   width: 70px;
@@ -65,13 +59,13 @@ body {
   left: 25px;
   z-index: 3;
   border-radius: 50px; }
-  /* line 72, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
   .homePlate .bag {
     top: 24px;
     left: 30px; }
 
-/* line 84, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
-.firstBase, .secondBase, .thirdBase {
+.firstBase,
+.secondBase,
+.thirdBase {
   background-color: #987644;
   width: 50px;
   height: 50px;
@@ -80,45 +74,71 @@ body {
   z-index: 3;
   right: -30px;
   bottom: -10px; }
-  /* line 94, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
-  .firstBase .bag, .secondBase .bag, .thirdBase .bag {
+  .firstBase .bag,
+  .secondBase .bag,
+  .thirdBase .bag {
     left: 25px;
     top: 17px; }
 
-/* line 100, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .secondBase {
   bottom: 325px;
   right: -30px; }
-  /* line 104, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
   .secondBase .bag {
     top: 10px;
     left: 26px; }
 
-/* line 110, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .thirdBase {
   left: -10px;
   bottom: 330px; }
-  /* line 114, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
   .thirdBase .bag {
-    display: none; }
+    left: 17px;
+    top: 11px; }
 
-/* line 120, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
-.thirdBaseLine, .firstBaseLine {
+.thirdBaseLine,
+.firstBaseLine {
   width: 2px;
   height: 1000px;
   position: absolute;
   z-index: 4;
   background: #fff; }
 
-/* line 128, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .thirdBaseLine {
   bottom: 17px;
-  left: 6px; }
+  left: 5px; }
 
-/* line 134, E:/Projects/weblabSpring2015/html_week_2/work/diamond/scss/style.scss */
 .firstBaseLine {
   width: 1000px;
   height: 2px;
   bottom: 7px;
   left: 5px; }
-/*# sourceMappingURL=style.css.map */
+
+.battersBox {
+  border: 2px solid #fff;
+  width: 19px;
+  height: 10px;
+  transform: rotateZ(135deg);
+  position: relative; }
+  .battersBox.left {
+    left: 5px;
+    bottom: -22px; }
+  .battersBox.right {
+    left: 28px;
+    bottom: -30px; }
+
+.mound {
+  background-color: #987644;
+  width: 60px;
+  height: 60px;
+  border-radius: 31px;
+  position: relative;
+  z-index: 8;
+  left: 140px;
+  top: 140px; }
+  .mound .rubber {
+    position: absolute;
+    background: #fff;
+    width: 4px;
+    height: 20px;
+    left: 34px;
+    top: 13px;
+    transform: rotate(-45deg); }
