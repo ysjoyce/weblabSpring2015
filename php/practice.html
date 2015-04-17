@@ -90,7 +90,7 @@ width: 985px;
         form {
             position: relative;
          padding-top: 25px;
-            height:80px;
+            height:100px;
             background-color: lightseagreen;
             text-indent: 5px;
 
@@ -102,6 +102,10 @@ width: 985px;
     </style>
 </head>
 <body>
+<?php
+    include('db.php');
+    $conn = db_connect();
+  ?>
 <div class="container=fluid">
     <div class="jumbotron">
         <div class="col-md-12">
@@ -175,13 +179,14 @@ width: 985px;
         <img src="https://raw.githubusercontent.com/ysjoyce/weblabSpring2015/master/html_week_2/fullPage/img/graph.png" alt="Chania"class="img-thumbnail" alt="Cinque Terre" width="985" height="450">
     </div>
 
-    <form class="form-inline" role="form">
+<!--    <form class="form-inline" role="form">
         <div class="form-group">
             <label for="email">Subscribe our newsletters </label>
                 <input type="email" class="form-control" id="email" placeholder= "Your e-mail here                ">
                 </div>
                 <button type="submit" class="btn btn-warning">Subscribe</button>
     </form>
+ -->
     <form class="form-inline" role="form">
     <div class="form-group">
         <?php
@@ -236,6 +241,7 @@ function test_input($data) {
 
 
         <input type="submit" name="submit" value="Subscribe">
+
         </form>
 
         <?php
